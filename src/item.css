@@ -1,0 +1,31 @@
+.item{
+    margin-bottom: 1.5rem;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+}
+.item h4{
+    color: #333638;
+    margin: 0;
+    margin-bottom: .35rem;
+    text-transform: capitalize;
+}
+.item img{
+    width: 75px;
+    height: 75px;
+    border-radius: 50%;
+    object-fit: cover;
+    box-shadow: 0 5px 15px rgba(0,0,0,0.1);;
+}
+.item p{
+    margin: 0;
+    text-transform: capitalize;
+}
+.item div{
+    display: flex;
+    flex-direction: column;
+    flex: 1;
+    margin-left: 10px;
+}
